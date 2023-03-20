@@ -86,7 +86,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  VPS DARK  ◄◄<<=====      \033[1;37m\033[0m" 
+ echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  CYBERPERU ◄◄<<=====      \033[1;37m\033[0m" 
 
  msg -bar2 
 
@@ -264,7 +264,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m VPS  DARK\033[1;33m ]" 
+ msg -ama "     [ SCRIPT \033[1;97m VPS  CYBERPERU\033[1;33m ]" 
 
  msg -bar 
 
@@ -542,7 +542,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  function_verify () { 
 
- permited=$(curl -sSL "https://www.dropbox.com/s/3k4oejqa16mlxex/Control-Scrip") 
+ permited=$(curl -sSL "https://www.dropbox.com/s/r6d7cmcignco2ms/control") 
 
  [[ $(echo $permited|grep "${IP}") = "" ]] && { 
 
@@ -574,7 +574,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- figlet " VPS-DARK" | lolcat 
+ figlet " menu" | lolcat 
 
  echo -e "     ESTE SCRIPT ESTA OPTIMIZADO A IDIOMA ESPAÑOL" 
 
@@ -781,7 +781,7 @@ touch /etc/VPS-MX/tmp/style
 
  msg -bar 
 
- msg -ama " Notify-BOT (Notificasion Remota)|@VPSDARK_Noty_Bot " 
+ msg -ama " Notify-BOT (Notificasion Remota)|@cyberperu_Noty_Bot " 
 
  msg -bar 
 
@@ -797,7 +797,7 @@ touch /etc/VPS-MX/tmp/style
 
  echo -e "\033[1;97m Inicie El BOT de Telegram" 
 
- echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @VPSDARK" 
+ echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @cyberperu_bot" 
 
  echo -e "\033[1;92m Aparesera algo parecido � → Tu ID es: 45145564   " 
 
@@ -1043,9 +1043,9 @@ touch /etc/VPS-MX/tmp/style
 
  invalid_key 
 
- rm -rf VPSDARK ista-arq 
+ rm -rf CYBERPERU ista-arq 
 
  fi 
 
- rm -rf VPSDARK lista-arq
+ rm -rf CYBERPERU lista-arq
 
